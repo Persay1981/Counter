@@ -1,0 +1,8 @@
+<h2>COUNTER</h2>
+
+<button (click)="increase()">COUNT UP</button>
+<button (click)="decrease()">COUNT DOWN</button>
+<br />
+<button (click)="reset()">RESET</button>
+
+<h1 *ngIf="check()">{{ count }}</h1>
